@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@44north/classnames@^0.0.0":
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/@44north/classnames/-/classnames-0.0.0.tgz#54e183c1eecfdf924962ca10e4f592a0ddf9dc96"
+  integrity sha512-ZcXC7/uZw4spybbScJgyaDSRgaUynlq4G3zCGzUgpKxUi7CxH4qB2pigmq1fnVazeK5wUfnrNsDj6N3FL77/RA==
+
 "@babel/code-frame@7.10.4":
   version "7.10.4"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.10.4.tgz#168da1a36e90da68ae8d49c0f1b48c7c6249213a"
