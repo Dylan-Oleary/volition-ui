@@ -1,12 +1,13 @@
 const colors = require("tailwindcss/colors");
 
 module.exports = {
-    purge: ["./src/components/**/*.tsx"],
+    purge: ["./src/**/*.{ts|tsx}"],
     darkMode: false,
     theme: {
         extend: {
             colors: {
-                primary: colors.blue
+                primary: colors.blue,
+                secondary: colors.fuchsia
             }
         }
     },

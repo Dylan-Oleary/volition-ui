@@ -1,4 +1,4 @@
-import { forwardRef, MouseEvent, ReactNode } from "react";
+import React, { forwardRef, MouseEvent, ReactNode } from "react";
 import "../../styles.css";
 import clsx from "clsx";
 
@@ -42,7 +42,8 @@ enum ButtonSizes {
 }
 
 enum ButtonColors {
-    "primary" = "text-white bg-primary-600 hover:bg-primary-700 focus:ring-primary-500"
+    "primary" = "text-white bg-primary-600 hover:bg-primary-700 focus:ring-primary-500",
+    "secondary" = "text-white bg-secondary-600 hover:bg-secondary-700 focus:ring-secondary-500"
 }
 
 const Button = forwardRef<any, IButtonProps>(
